@@ -1,0 +1,80 @@
+/* App.css */
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-image: url("https://images.pexels.com/photos/8358135/pexels-photo-8358135.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border-radius: 10px;
+  border: none;
+  font-size: 1rem;
+  background-color: rgba(53, 49, 49, 0.2);
+  color: #131111;
+  backdrop-filter: blur(8px);
+  outline: none;
+  box-shadow: inset 0 0 5px rgba(255, 255, 255, 0.2);
+}
+
+input::placeholder {
+  color: rgba(16, 16, 15, 0.881);
+}
+
+label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  color: rgb(41, 40, 40);
+}
+
+button {
+  padding: 0.60rem 0.6rem;
+  background-color: #477a9a;
+  margin-left: 18rem;
+  margin-top: 0.3rem;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 10px;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #6b66a5;
+  cursor: pointer;
+}
+
+.container {
+  width: 100%;
+  max-width: 400px;
+  padding: 2rem;
+  margin: 5rem;
+  margin-left: 2rem;
+  background-color: rgb(209, 208, 196);
+  /* background: rgba(37, 151, 151, 1.179); */
+  border-radius: 20px;
+  backdrop-filter: blur(16px);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+/* .containerBox{
+  background-color: #131111;
+} */
