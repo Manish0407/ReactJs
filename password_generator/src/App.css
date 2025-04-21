@@ -30,20 +30,24 @@
   letter-spacing: 1px;
   text-align: center;
 }
-
 button {
-  background: var(--primary);
+  background-color: var(--primary);
   color: white;
+  padding: 10px 20px;
   border: none;
-  padding: 0.6rem 1rem;
   border-radius: 8px;
   font-size: 1rem;
   cursor: pointer;
-  transition: background 0.3s;
+  transition: background-color 0.3s ease, transform 0.1s ease;
 }
 
 button:hover {
-  background: var(--highlight);
+  background-color: #0066ff; /* Hover shade */
+  transform: scale(1.03);
+}
+
+button:active {
+  transform: scale(0.97);
 }
 
 input[type='range'] {
